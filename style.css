@@ -1,0 +1,107 @@
+/* Page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form */
+
+form {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+
+button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#addButton {
+    background-color: green;
+}
+
+#save {
+    background-color: blue;
+}
+
+#cancel {
+    background-color: red;
+}
+
+/* Search */
+
+#search {
+    width: 300px;
+}
+
+/* Contact Count */
+
+#totalContacts {
+    font-weight: bold;
+    color: blue;
+}
+
+/* Error Messages */
+
+#nameError,
+#phoneError,
+#emailError {
+    color: red;
+    font-size: 14px;
+}
+
+/* Message */
+
+#message {
+    color: gray;
+    font-style: italic;
+}
+
+/* Contact Cards */
+
+.contact {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.contact h3 {
+    margin: 0 0 10px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.contact button {
+    background-color: orange;
+    margin-top: 10px;
+}
