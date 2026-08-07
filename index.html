@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Book</title>
+
+</head>
+<body>
+
+    <h1>My Contact Book</h1>
+
+    <!-- Add Contact Button -->
+    <button id="addButton" type="button">
+        Add Contact
+    </button>
+
+    <br><br>
+
+    <!-- Search -->
+    <label for="search">Search Contact</label><br>
+    <input
+        type="text"
+        id="search"
+        placeholder="Enter a name"
+        autocomplete="off"
+    >
+
+    <br><br>
+
+    <!-- Total Contacts -->
+    <p>
+        Total Contacts:
+        <span id="totalContacts">0</span>
+    </p>
+
+    <!-- Alphabet Navigation -->
+    <div id="letters">
+        <!-- Letters A-Z will be added using JavaScript -->
+    </div>
+
+    <br>
+
+    <!-- Empty Message -->
+    <p id="message">
+        No contacts added yet.
+    </p>
+
+    <hr>
+
+    <h2>Add New Contact</h2>
+
+    <!-- Contact Form -->
+    <form id="contactForm">
+
+        <!-- Name -->
+        <label for="name">Full Name</label><br>
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter full name"
+            autocomplete="off"
+        >
+        <p id="nameError"></p>
+
+        <br>
+
+        <!-- Phone -->
+        <label for="phone">Phone Number</label><br>
+        <input
+            type="text"
+            id="phone"
+            placeholder="Enter phone number"
+            autocomplete="off"
+        >
+        <p id="phoneError"></p>
+
+        <br>
+
+        <!-- Email -->
+        <label for="email">Email Address</label><br>
+        <input
+            type="text"
+            id="email"
+            placeholder="Enter email address"
+            autocomplete="off"
+        >
+        <p id="emailError"></p>
+
+        <!-- Hidden ID -->
+        <input type="hidden" id="contactId">
+
+        <br><br>
+
+        <!-- Buttons -->
+        <button type="button" id="cancel">
+            Cancel
+        </button>
+
+        <button type="submit" id="save">
+            Save Contact
+        </button>
+
+    </form>
+
+<script src="script.js"></script>
+</body>
+</html>
